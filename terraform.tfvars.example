@@ -1,0 +1,4 @@
+aws_region                       = "us-east-1"
+instance_type                    = "t2.micro"
+key_name                         = "your-pair-key-name"
+gitlab_runner_registration_token = "your-registration-token"
