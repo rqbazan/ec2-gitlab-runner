@@ -7,7 +7,7 @@ echo "Setting up GitLab Runner with Docker executor..."
 
 # Update system
 yum update -y
-yum install -y curl git
+yum install -y curl git jq
 
 # Install Docker
 yum install -y docker
