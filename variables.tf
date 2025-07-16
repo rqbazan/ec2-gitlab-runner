@@ -21,3 +21,15 @@ variable "gitlab_runner_registration_token" {
   type        = string
   sensitive   = true
 }
+
+variable "root_volume_size" {
+  description = "Size of the root EBS volume in GB"
+  type        = number
+  default     = 30
+}
+
+variable "docker_volume_size" {
+  description = "Size of the dedicated Docker EBS volume in GB"
+  type        = number
+  default     = 50
+}
